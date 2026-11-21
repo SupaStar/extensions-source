@@ -42,7 +42,7 @@ class FreeReaderAckDto(
     private val sig: String,
 )
 
-// The reader page's `window.__LECTOR__`
+// The reader page's `window.__BV_CTX__`
 @Serializable
 class LectorDto(
     @SerialName("t") val token: String,
